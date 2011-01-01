@@ -1,0 +1,7 @@
+h1. DanHarper.me Landing Page
+
+This was my site during Q3 + Q4 for 2010. Just a simple page with links to my profiles elsewhere on the web and links to my latest work.
+
+A CSS3 box shadow is used on the main container.
+
+Use this however you like.

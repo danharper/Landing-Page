@@ -1,0 +1,70 @@
+* { margin: 0; padding: 0; }
+
+body {
+	background: url("../images/bg.gif") repeat;
+	color: #4f4f4f;
+	font-family: "Droid Serif", "Georgia", serif;
+	text-align: center;
+}
+
+#wrap {
+	background-color: white;
+	-moz-box-shadow: 0 0 60px #e4e4e4;
+	-webkit-box-shadow: 0 0 60px #e4e4e4;
+	box-shadow: 0 0 60px #e4e4e4;
+	margin: 50px auto;
+	padding: 75px 95px;
+	width: 760px;
+}
+
+h1 {
+	font-family: "Georgia", serif;
+	font-size: 105px;
+	line-height: 100%;
+	margin-bottom: 50px;
+}
+
+h1 {
+	background: url("../images/heythere.png") no-repeat center;
+	display: block;
+	height: 203px;
+	margin: -80px auto 15px;
+	text-indent: -9999em;
+	width: 442px;
+}
+
+h1:hover { background-image: url("../images/heythere-hover.png"); }
+h1:active { background-image: url("../images/heythere-active.png"); }
+
+p {
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+p:last-child { margin: 0; }
+
+a { text-decoration: none; }
+a:hover, a:hover span { background: #888; color: #fff; }
+a:focus, a:active, a:focus span, a:active span { background: #000; color: #fff; }
+
+::selection { background: #eee; }
+::-moz-selection { background: #eee; }
+
+a::selection, a span::selection { background: #aaa; color: #fff; }
+a::-moz-selection, a span::-moz-selection { background: #aaa; color: #fff; }
+
+.nettuts { color: #337d70; }
+.themeforest { color: #8b5d2c; }
+.codecanyon { color: #f69a20; }
+.tutsmarketplace { color: #d26200; }
+.jobsabroad { color: #058cad; }
+.jobsabroad span { color: #e3672e; }
+.summerjobs { color: #99c12d; }
+.summerjobs span { color: #5bcde6; }
+.williebaker { color: #205493; }
+.twitter { color: #33ccff; }
+.email { color: #558a52; }
+.github { color: #000; text-transform: lowercase; }
+.linkedin { color: #191613; }
+.linkedin span { color: #2189b5; }
